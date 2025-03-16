@@ -20,6 +20,7 @@ func intDivision(numerator, denominator int) (int, int, error) {
 	var remainder int = numerator % denominator
 	return result, remainder, err
 }
+
 func main() {
 	greetings("John")
 
